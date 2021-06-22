@@ -2,5 +2,9 @@ module.exports = {
   siteMetadata: {
     title: "gjs-portfolio",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
